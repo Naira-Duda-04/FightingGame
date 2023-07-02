@@ -284,11 +284,11 @@ scene("fight", () => {
         }
     }
 
-    onKeyPress("s", () => {
+    onKeyPress("space", () => {
         attack(player1, ["a", "d", "w"])
     })
 
-    onKeyRelease("s", () => {
+    onKeyRelease("space", () => {
         destroyAll(player1.id + "attackHitbox")
     })
 
